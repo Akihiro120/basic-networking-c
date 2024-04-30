@@ -45,7 +45,7 @@ int main(int argc, char* argv[]) {
   printf("INFO: Successfully Connected to Server\n"); 
 
   char receiveBuffer[1024];
-  char sendBuffer[] = "This is very cool message from the client, hi mum!";
+  char sendBuffer[] = "This is very cool message from the client";
 
   // send
   if (send(clientSocket, sendBuffer, strlen(sendBuffer), 0) == SOCKET_ERROR) {

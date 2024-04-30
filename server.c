@@ -61,7 +61,7 @@ int main(int argc, char* argv[]) {
   }
   
   char buffer[1024];
-  char response[] = "This is a very awesome message from the server, 1234 you are poor!";
+  char response[] = "This is a very awesome message from the server";
 
   // receiving data
   printf("INFO: Receiving Data\n");
